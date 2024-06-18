@@ -16,6 +16,13 @@ router.get("/update", com.updateForm);
 
 router.get("/admin", com.admin);
 
-router.get("*", com.notFound);
+router.post("/register", com.register);
 
+
+
+
+
+
+
+router.get("*", com.notFound);
 export default router;
