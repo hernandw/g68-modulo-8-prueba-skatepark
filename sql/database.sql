@@ -11,3 +11,4 @@ image varchar (255) not null,
 status boolean not null default false,
 createat timestamp with time zone default now()
 );
+
